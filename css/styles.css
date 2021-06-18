@@ -692,7 +692,8 @@ textarea::placeholder {
   margin-right: 8px;
 }
 
-.checkbox:checked + .check {
+.checkbox:checked + .check,
+.checkbox:focus + .check {
   fill: var(--white-color);
   background-color: var(--secondary-background-color);
   border: none;
