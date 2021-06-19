@@ -550,22 +550,21 @@ li.social-icons-list:first-child {
   outline: none;
   border: none;
   background-color: var(--white-color);
+  border: 1px solid var(--white-color);
 }
 .btn-close:hover {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-color: red;
+  fill: var(--secondary-background-color);
+  cursor: pointer;
+}
+.btn-close:hover .btn-close-icon {
+  fill: var(--secondary-background-color);
 }
 
 .btn-close-icon {
   fill: var(--black-color);
   cursor: pointer;
-  background-color: violet;
 }
-
-.btn-close-icon:hover {
-  fill: var(--secondary-background-color);
-}
-/* ; */
 
 .backdrop.is-hidden {
   opacity: 0;
