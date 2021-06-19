@@ -537,6 +537,35 @@ li.social-icons-list:first-child {
 .modal-content {
   position: relative;
 }
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: var(--white-color);
+}
+.btn-close:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: red;
+}
+
+.btn-close-icon {
+  fill: var(--black-color);
+  cursor: pointer;
+  background-color: violet;
+}
+
+.btn-close-icon:hover {
+  fill: var(--secondary-background-color);
+}
+/* ; */
 
 .backdrop.is-hidden {
   opacity: 0;
